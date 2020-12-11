@@ -19,4 +19,4 @@ if __name__ == "__main__":
             print(f"Download #{i+1}, @: {currentLink}")
         audioFile = requests.get(currentLink)
         open(f'{i+1}.mp3', 'wb').write(audioFile.content)
-    print("Download Completato");
+    print("Download Completato")
